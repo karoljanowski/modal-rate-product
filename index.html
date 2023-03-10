@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>INVO Academy JS Starter with Vite</title>
+</head>
+
+<!-- In order to start your challenge, remove all the content inside <div id="home-page"></div> and start coding :) -->
+
+<body>
+  <div id="home-page">
+    <div class="modal" id="modal">
+
+      <div class="modal__top">
+        <div class="modal__star-bg"><img src="./public/images/Vector.png" alt=""></div>
+        <div class="modal__close"></div>
+      </div>
+
+      <h2 class="modal__title">How do you feel about using our product?</h2>
+      <div class="modal__rate">
+        <div class="modal__boxes">
+          <div class="modal__box">1</div>
+          <div class="modal__box">2</div>
+          <div class="modal__box">3</div>
+          <div class="modal__box">4</div>
+          <div class="modal__box">5</div>
+        </div>
+        <div class="modal__description">
+          <span class="modal__satisfied">Extremly dissatisfied</span>
+          <span class="modal__satisfied">Extremly satisfied</span>
+        </div>
+      </div>
+      <button class="modal__button" disabled>Next step</button>
+    </div>
+  </div>
+
+  <script type="module" src="/src/global-scripts/main.js"></script>
+  <script type="module" src="/src/pages/home-page/scripts/home-page.js"></script>
+</body>
+
+</html>
